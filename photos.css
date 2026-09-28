@@ -1,0 +1,23 @@
+/* Scoped photo evidence addition; preserve the existing hero and service layout. */
+.service-illustrations .example-photo img{height:290px;object-fit:cover}
+.service-illustrations .service-example:first-child .example-photo img{object-position:50% 62%}
+.service-illustrations .service-example:nth-child(2) .example-photo img{object-position:56% 55%}
+.service-illustrations .service-example:nth-child(3) .example-photo img{object-position:50% 35%}
+.service-photo-note{font-size:12px;color:#aaa;margin-top:20px;max-width:900px}
+.work-photos{border-bottom:1px solid var(--line)}
+.work-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:32px}
+.work-gallery figure{min-width:0;background:#141414;border:1px solid #343434;border-radius:10px;overflow:hidden}
+.work-photo-link{position:relative;display:block;background:#20201e}
+.work-photo-link img{width:100%;height:340px;object-fit:contain}
+.work-photo-link span{position:absolute;right:10px;bottom:10px;background:#080808dc;border-radius:4px;padding:5px 9px;font-size:11px}
+.work-gallery figcaption{padding:21px}
+.work-gallery h3{font-size:20px;margin-bottom:10px}
+.work-gallery p{font-size:14px;min-height:3.2em}
+.work-gallery figcaption a{display:inline-block;color:#ff9a70;font-size:12px;text-decoration:underline;text-underline-offset:4px;margin-top:17px}
+.photo-preview-note{padding:15px 18px;border-left:2px solid #b96a40;background:#19140f;font-size:12px;line-height:1.65;margin-top:24px;color:#cbb9ac}
+.work-photo-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:30px}
+.work-photo-cta h3{font-size:23px;margin-bottom:9px}
+.work-photo-cta p{max-width:640px;font-size:15px}
+.work-photo-cta .pill{flex-shrink:0;font-size:14px}
+@media(max-width:900px){.work-gallery{gap:16px}.work-photo-link img{height:300px}.work-gallery figcaption{padding:17px}.work-photo-cta{align-items:flex-start;flex-direction:column;gap:20px}}
+@media(max-width:700px){.work-gallery{grid-template-columns:1fr;gap:24px}.work-photo-link img{height:auto;max-height:460px;object-fit:contain}.work-gallery p{min-height:0}.work-gallery figcaption{padding:21px}.work-photo-cta .pill{width:100%;white-space:normal}.photo-preview-note{font-size:12px}}

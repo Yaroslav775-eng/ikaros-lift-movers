@@ -1,0 +1,12 @@
+# Local and superseded prototype files
+competitor-analysis.md
+ENHANCED-NOTES.md
+enhanced.html
+studio.html
+assets/furniture-example.jpg
+assets/appliance-example.jpg
+assets/materials-example.jpg
+
+# OS/editor files
+.DS_Store
+Thumbs.db
